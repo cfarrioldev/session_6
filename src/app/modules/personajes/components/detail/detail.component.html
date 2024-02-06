@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="character-card">
+  <div class="card-container">
+    <h2>{{ character.name }}</h2>
+    <img class="character-image" [src]="character.image" alt="{{ character.name }} Image" />
+    <div class="character-details">
+      <p><strong>Species:</strong> {{ character.species }}</p>
+      <p><strong>Status:</strong> {{ character.status }}</p>
+    </div>
+    <button class="details-button" [routerLink]="['']">Volver al inicio</button>
+  </div>
+</div>
+</div>

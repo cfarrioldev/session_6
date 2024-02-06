@@ -1,0 +1,15 @@
+
+<div class="container">
+  <div class="character-card" *ngFor="let character of characterList">
+    <div class="card-container">
+      <h2>{{ character.name }}</h2>
+      <img class="character-image" [src]="character.image" alt="{{ character.name }} Image" />
+      <div class="character-details">
+        <p><strong>Species:</strong> {{ character.species }}</p>
+        <p><strong>Status:</strong> {{ character.status }}</p>
+      </div>
+      <button class="details-button" [routerLink]="['/app/characters/detail', character.id]">Detalles</button>
+    </div>
+  </div>
+</div>
+

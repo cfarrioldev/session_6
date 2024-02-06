@@ -1,0 +1,15 @@
+@media (max-width: 600px) {
+  .mat-toolbar-row,
+  .mat-toolbar-single-row {
+    white-space: normal;
+  }
+  .title {
+    font-size: 8px;
+    padding: 0;
+  }
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+

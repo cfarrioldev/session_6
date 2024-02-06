@@ -1,0 +1,11 @@
+.layout-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.layout-container_list {
+  width: 100%;
+  flex-grow: 1;
+}
